@@ -2,7 +2,7 @@ import { UncontrolledCarousel } from "reactstrap";
 
 const Projects = () => {
     return (
-        <UncontrolledCarousel
+        <UncontrolledCarousel id='Projects'
             items={[
                 {
                     altText: 'Slide 1',

@@ -26,8 +26,7 @@ The intention of this project is to operate as a personal portfolio for me. My o
 
 ## Additional Libraries 
 ---
-Currently N/A
-
+Reactstrap
 ## Issues and resolutions
 ---
 Currently N/A
