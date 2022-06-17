@@ -5,3 +5,11 @@
 html{
   scroll-behavior: smooth;
 }
+
+#about{
+  display: flex;
+}
+
+#about img{
+  width: 20vw;
+}
