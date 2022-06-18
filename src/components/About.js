@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="About" className="container">
             <img src='./images/IMG_6930.jpg' alt="Picture of AJ"></img>
             <div>I am a Software Developer with a background in resolving complex
                 problems and technical projects that require a tight tolerance of

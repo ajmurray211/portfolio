@@ -1,15 +1,45 @@
 .App {
   text-align: center;
+  background-color:rgb(255, 255, 234);
 }
 
 html{
   scroll-behavior: smooth;
+  background-color: beige;
+
 }
 
-#about{
+.container{
   display: flex;
+  justify-content: space-evenly;
+  margin-right: 2vw;
+  flex-wrap: wrap;
 }
 
-#about img{
+#About{
+  flex-wrap: nowrap;
+}
+#About img{
   width: 20vw;
+}
+
+#About div{
+  text-align: center;
+  font-size: 2vw;
+  margin: auto;
+}
+
+#Top{
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-weight: 400;
+}
+#Top:hover{
+  color: grey;
+  text-shadow: 2px 2px 3px;
+}
+
+#Projects, #Skills,  #About, #ContactMe, #References{
+  margin: 3vw 2vw;
 }

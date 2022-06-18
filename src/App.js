@@ -5,26 +5,31 @@ import Projects from './components/Projects';
 import About from './components/About';
 import References from './components/References';
 import ContactMe from './components/ContactMe';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav id='Nav'>
         <Nav fill tabs>
           <NavItem><NavLink active href="#">Home</NavLink></NavItem>
-          <NavItem><NavLink href="#Projects">Projects</NavLink></NavItem>
-          <NavItem><NavLink href="#">Skills</NavLink></NavItem>
           <NavItem><NavLink href="#About">About</NavLink></NavItem>
+          <NavItem><NavLink href="#Skills">Skills</NavLink></NavItem>
+          <NavItem><NavLink href="#Projects">Projects</NavLink></NavItem>
           <NavItem><NavLink href="#References">Refrences</NavLink></NavItem>
           <NavItem><NavLink href="#ContactMe">Contact me </NavLink></NavItem>
         </Nav>
       </nav>
       <div>
-        <Projects/>
-        <About/>
-        <References/>
-        <ContactMe/>
+        <About />
+        <Skills />
+        <Projects />
+        <References />
+        <ContactMe />
       </div>
+      <footer>
+        <a id='Top' href='#Nav'>Return to top</a>
+      </footer>
     </div>
   );
 }
