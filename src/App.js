@@ -16,7 +16,7 @@ function App() {
           <NavItem><NavLink href="#About">About</NavLink></NavItem>
           <NavItem><NavLink href="#Skills">Skills</NavLink></NavItem>
           <NavItem><NavLink href="#Projects">Projects</NavLink></NavItem>
-          <NavItem><NavLink href="#References">Refrences</NavLink></NavItem>
+          <NavItem><NavLink href="#References">References</NavLink></NavItem>
           <NavItem><NavLink href="#ContactMe">Contact me </NavLink></NavItem>
         </Nav>
       </nav>
