@@ -1,31 +1,63 @@
 import { CardGroup, Card, CardImg, CardBody, CardTitle, CardText } from "reactstrap";
+import { UncontrolledAccordion,AccordionItem, AccordionBody, AccordionHeader} from "reactstrap";
 
 const References = () => {
     return (
+        // <div>
+        //     <h2>References</h2>
+        //     <section id="References">
+        //         <CardGroup>
+        //             <Card>
+        //                 <CardImg alt="Card image cap" src="https://picsum.photos/318/180" top width="100%" />
+        //                 <CardBody>
+        //                     <CardTitle tag="h5"> Reference #1</CardTitle>
+        //                     <CardText>
+        //                         Discription of referance
+        //                     </CardText>
+        //                 </CardBody>
+        //             </Card>
+        //             <Card>
+        //                 <CardImg alt="Card image cap" src="https://picsum.photos/318/180" />
+        //                 <CardBody>
+        //                     <CardTitle tag="h5">Reference #2</CardTitle>
+        //                     <CardText>
+        //                         Ref 2 discription
+        //                     </CardText>
+        //                 </CardBody>
+        //             </Card>
+        //         </CardGroup>
+        //     </section>
+        // </div>
+
         <div>
             <h2>References</h2>
-            <section id="References">
-                <CardGroup>
-                    <Card>
-                        <CardImg alt="Card image cap" src="https://picsum.photos/318/180" top width="100%" />
-                        <CardBody>
-                            <CardTitle tag="h5"> Reference #1</CardTitle>
-                            <CardText>
-                                Discription of referance
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                    <Card>
-                        <CardImg alt="Card image cap" src="https://picsum.photos/318/180" />
-                        <CardBody>
-                            <CardTitle tag="h5">Reference #2</CardTitle>
-                            <CardText>
-                                Ref 2 discription
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </CardGroup>
-            </section>
+            <UncontrolledAccordion
+                defaultOpen={[
+                    '1',
+                    '2'
+                ]}
+                stayOpen
+            >
+                <AccordionItem>
+                    <AccordionHeader targetId="1"> Devan Grose </AccordionHeader>
+                    <AccordionBody accordionId="1">
+                        Devan is a senior front end developer and is not only a friend but a 
+                        mentor I have had the pleasure of knowing for roughly 8 years. 
+                        Devan has been helping me prepare for what working as a developer will bring. 
+                        Learning data structures/ algorithms, working with multiple different branches 
+                        in git hub and how to properly work as part of a developer team.  
+                        <a href="https://www.linkedin.com/in/devangrose/">LinkedIn</a>
+                    </AccordionBody>
+                </AccordionItem>
+                <AccordionItem>
+                    <AccordionHeader targetId="2"> Rilyn Gherardini </AccordionHeader>
+                    <AccordionBody accordionId="2">
+                        Rilyn is a concrete cutter in Washington state that has known me for 10 years. 
+                        The best way to reach Rilyn is by phone his number is 425-275-3598.
+                        "AJ is one of the hardest works and dedicated people I have known and worked with."
+                    </AccordionBody>
+                </AccordionItem>
+            </UncontrolledAccordion>
         </div>
     );
 }
