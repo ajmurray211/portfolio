@@ -28,7 +28,6 @@ const References = () => {
                     <AccordionBody accordionId="2">
                         Rilyn is a concrete cutter in Washington state that has known me for 10 years. 
                         The best way to reach Rilyn is by phone his number is 425-275-3598.
-                        "AJ is one of the hardest works and dedicated people I have known and worked with."
                     </AccordionBody>
                 </AccordionItem>
             </UncontrolledAccordion>
