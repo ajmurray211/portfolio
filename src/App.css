@@ -1,38 +1,46 @@
 .App {
   text-align: center;
+  background-color:rgb(255, 255, 234);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  scroll-behavior: smooth;
+  background-color: beige;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  margin-right: 2vw;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+#About{
+  flex-wrap: nowrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#About img{
+  width: 20vw;
+}
+
+#About div{
+  text-align: center;
+  font-size: 2vw;
+  margin: auto;
+}
+
+#Top{
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-weight: 400;
+}
+
+#Top:hover{
+  color: grey;
+  text-shadow: 2px 2px 3px;
+}
+
+#Projects, #Skills,  #About, #ContactMe, #References{
+  margin: 3vw 2vw;
 }
