@@ -1,14 +1,17 @@
 import React from 'react';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const ContactMe = () => {
     const url = process.env.PUBLIC_URL
     return (
-        <section>
+        <section id='contactMe'>
             <h2>Contact Me</h2>
             <div id="ContactMe" className="container">
-                <a href="https://github.com/ajmurray211" target="_blank"><img src={url + "/images/4747499_github_icon (1).png"} /> </a>
-                <a href="mailto:aj.murr4y@gmail.com" target="_blank"><img src={url +"/images/134146_mail_email_icon.png"} /></a>
-                <a href="https://www.linkedin.com/in/alexander-murray-se/" target="_blank"><img src={url + "/images/4747495_linked in_social media_networking_icon (1).png"} /> </a>
+                <a href="https://github.com/ajmurray211" target="_blank"><GitHubIcon fontSize='large' /> </a>
+                <a href="mailto:aj.murr4y@gmail.com" target="_blank"><EmailIcon fontSize='large' /></a>
+                <a href="https://www.linkedin.com/in/alexander-murray-se/" target="_blank"><LinkedInIcon fontSize='large' /> </a>
             </div >
         </section>
     );
