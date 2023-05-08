@@ -7,30 +7,30 @@ const Projects = () => {
         {
             title: 'Cutall concrete',
             url: process.env.PUBLIC_URL + '/images/cutallsnippet.png',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL','Node.js'],
+            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
             description: "This innovative interface digitizes all of a company's operations, creating a streamlined and efficient workflow. The website created for Cut-All provides a comprehensive all-in-one solution for companies of all sizes, spanning from invoicing and part serialization to inventory management, ledger tracking, timesheets, and trucks/tool tracking."
         },
         {
             title: 'Stus Brew',
-            technologies: ['React','GitHub', 'Node.js'],
+            technologies: ['React', 'GitHub', 'Node.js'],
             url: process.env.PUBLIC_URL + '/images/stussnippet.png',
             description: 'Currently in development, this e-commerce website combines clothing and coffee sales for a small coffee shop. Additionally, patrons can sign up for a newsletter to receive regular updates about the shop. Keep an eye out for this exciting new website!'
         },
         {
             title: 'Woods2Waters',
             url: process.env.PUBLIC_URL + '/images/woods2waters.png',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL','Node.js'],
-            description: 'Developed a React web-based application called Woods2Waters, v1 allows users to look up recipes either by animals or by dish. In current production is v2 which allows users to look up land or water based animals and display relevant information. Technologies used: React, MongoDB, Heroku, GitHub'
+            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
+            description: "Developed a React web-based application called Woods2Waters, v1 allows users to look up recipes either by animals or by dish. In current production is v2 which allows users to look up land or water based animals and display relevant information."
         },
         {
             title: 'Chaos Kingdom',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL','Node.js'],
+            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
             url: process.env.PUBLIC_URL + '/images/Chaos_kingdom_title.png',
-            description: 'A turn based conquest game, with a battlemap for enemy encounters. Downloadable zip file available at the link provided. Technologies used: Python, Pygame, React, Github'
+            description: "Chaos Kingdom is an exciting turn-based game with an immersive battlemap designed to engage players in a thrilling conquest experience. The game offers a downloadable zip file accessible via the provided link, providing gamers with seamless access to the game's files. With its captivating gameplay and exciting features, Chaos Kingdom promises an exhilarating gaming experience for all levels of players."
         },
         {
             title: 'Ventiation',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL','Node.js'],
+            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
             url: process.env.PUBLIC_URL + '/images/ventilation.png',
             description: ''
         },
