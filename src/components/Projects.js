@@ -7,7 +7,7 @@ const Projects = () => {
         {
             title: 'Cutall concrete',
             url: process.env.PUBLIC_URL + '/images/cutallsnippet.png',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
+            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'Node.js'],
             description: "This innovative interface digitizes all of a company's operations, creating a streamlined and efficient workflow. The website created for Cut-All provides a comprehensive all-in-one solution for companies of all sizes, spanning from invoicing and part serialization to inventory management, ledger tracking, timesheets, and trucks/tool tracking."
         },
         {
@@ -24,15 +24,15 @@ const Projects = () => {
         },
         {
             title: 'Chaos Kingdom',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
+            technologies: ['Python', 'Pygame', 'React', 'Github', 'Node.js'],
             url: process.env.PUBLIC_URL + '/images/Chaos_kingdom_title.png',
             description: "Chaos Kingdom is an exciting turn-based game with an immersive battlemap designed to engage players in a thrilling conquest experience. The game offers a downloadable zip file accessible via the provided link, providing gamers with seamless access to the game's files. With its captivating gameplay and exciting features, Chaos Kingdom promises an exhilarating gaming experience for all levels of players."
         },
         {
             title: 'Ventiation',
-            technologies: ['React', 'MongoDB', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
+            technologies: ['React', 'Django', 'Heroku', 'GitHub', 'SQL', 'Node.js'],
             url: process.env.PUBLIC_URL + '/images/ventilation.png',
-            description: ''
+            description: 'Ventilation is a web application that provides users with a platform to share their stories, express their grief or make statements, and allows other users to comment on and/or favorite these posts. My primary responsibility for this project was the development of the API, which involved creating a RESTful API using Django and Django Rest Framework. I also collaborated with my team members who focused on the front-end layout, operations, and styling. Additionally, I managed the branching and version control for the entire team, providing guidance and ensuring that all team members were following the best practices for code management. '
         },
     ])
 
